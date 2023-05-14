@@ -44,3 +44,8 @@ You should be able to execute the DAG successfully, but if you check the logs, y
 
 ## Result
 ![Screenshot](sparkify_result.png)
+
+## Information
+In this project, there are 2 folders:
+1. dags: Include linhntn11_sparkify.py - the dag which has all the imports and task. And create_tables.sql where had all the sql queries. 
+2. plugins which has 2 small folders inside: helpers - SQL transformations and operators - 5 operators supporting for the dag. 
