@@ -36,7 +36,7 @@ task_creation =  CreateTablesOperator(
     task_id='Create_table',
     dag=dag,
     redshift_conn_id="redshift",
-    sql="/home/workspace/airflow/dags/cd0031-automate-data-pipelines/project/starter/create_table.sql")
+    sql="/home/workspace/airflow/dags/cd0031-automate-data-pipelines/project/starter/create_tables.sql")
 
 stage_events_to_redshift = StageToRedshiftOperator(
     task_id='Stage_events',
